@@ -1,4 +1,9 @@
 {
+  "functions": {
+    "api/**/*.js": { "runtime": "edge" },
+    "api/**/*.mjs": { "runtime": "edge" },
+    "api/**/*.ts": { "runtime": "edge" }
+  },
   "ignoreCommand": "bash scripts/vercel-ignore.sh",
   "crons": [],
   "redirects": [
